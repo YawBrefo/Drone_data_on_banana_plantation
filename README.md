@@ -39,7 +39,7 @@ Converts per-tile ML detection CSVs and paired GeoTIFF image tiles into a single
 | `in_csv_path` | Root directory of ML model output CSVs (one sub-folder per block, matched to tiles) | `.../count/count_ML_output/` |
 | `in_boundary_path` | Directory of block boundary GeoJSON files | `.../boundary_data/geojson_data/` |
 
-> Image tiles and CSV files must be organised into matching sub-folders named by block (e.g. `block1/`). Within each block sub-folder the filenames must sort into matching pairs. The notebook validates this before processing.
+> Image tiles and CSV files must be organised into matching sub-folders named by block or plot (e.g. `block1/`). Within each block sub-folder the filenames must sort into matching pairs. The notebook validates this before processing.
 
 ### Outputs
 
