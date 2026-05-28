@@ -28,7 +28,7 @@ ML Detection Output (CSVs + GeoTIFFs)
 <details>
 <summary><strong>A05_Banana_census.ipynb</strong> — geolocate & classify banana plants</summary>
 
-Converts per-tile ML detection CSVs and paired GeoTIFF image tiles into a single deduplicated, boundary-clipped GeoJSON. Each plant point is then classified as a **Parent** or **Sucker** using the Digital Surface Model (DSM): plants within 1.5 m or specified planting distance of each other are paired, and the shorter plant in each pair is labelled a sucker.
+Converts per tile ML detection CSVs and paired GeoTIFF image tiles into a single deduplicated, boundary-clipped GeoJSON. Each plant point is then classified as a **Parent** or **Sucker** using the Digital Surface Model (DSM): plants within 1.5 m or specified planting distance of each other are paired, and the shorter plant in each pair is labelled a sucker.
 
 ### Inputs
 
