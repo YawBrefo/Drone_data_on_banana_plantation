@@ -4,7 +4,7 @@
 
 ## Overview
 
-`A05_Banana_census.ipynb` converts ML detection output (CSVs + GeoTIFF tiles) into a geolocated, boundary-clipped GeoJSON of banana plants, with each point classified as either a **Parent** stalk or a **Sucker** offshoot using DSM-derived surface height.
+`A05_Banana_census.ipynb` converts ML detection output (CSVs + GeoTIFF tiles) into a geolocated, boundary-clipped GeoJSON of banana plants, with each point classified as either a **Parent** stalk or a **Sucker** offshoot using DSM-derived surface height and multispectral data.
 
 ---
 
